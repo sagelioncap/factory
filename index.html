@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SageLion Agents — Premium n8n Automations</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <div class="brand">
+        <div class="brand-mark image-mark">♌</div>
+        <div>
+          <div class="brand-name">SageLion Agents</div>
+          <div class="brand-tag">Premium n8n Automations</div>
+        </div>
+      </div>
+      <nav>
+        <a href="#agents">Browse Agents</a>
+        <a href="#how-it-works">How it Works</a>
+        <a href="https://sagelion.com" target="_blank" style="color: var(--gold); border: 1px solid var(--line); padding: 6px 12px; border-radius: 6px;">Back to Main Site</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container text-center">
+        <p class="eyebrow">Plug-and-Play AI</p>
+        <h1>Enterprise-grade n8n agents, built for business.</h1>
+        <p class="lead">
+          Stop wrestling with LangChain nodes and API documentation. Instantly download fully engineered, production-ready AI agents and drop them straight into your n8n workspace.
+        </p>
+        <div class="cta-row center-cta">
+          <a class="button primary" href="#agents">View Agent Library</a>
+          <a class="button secondary" href="#how-it-works">Watch Demo</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="agents" class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured Agents</h2>
+          <p>Production-tested workflows with advanced error handling and memory.</p>
+        </div>
+        
+        <div class="cards three-up">
+          <!-- Product Card 1 -->
+          <article class="card product-card">
+            <div class="card-badge new">New</div>
+            <div class="product-icon">📥</div>
+            <h3>The Inbox Triage Agent</h3>
+            <p class="desc">Autonomously reads incoming support emails, categorizes urgency, drafts a reply using your company knowledge base, and saves it as a draft.</p>
+            <div class="tech-stack">
+              <span>Gmail</span><span>OpenAI</span><span>Notion</span>
+            </div>
+            <div class="product-footer">
+              <div class="price">$49 <span class="license">/ one-time</span></div>
+              <button class="button buy-btn">Buy JSON</button>
+            </div>
+          </article>
+
+          <!-- Product Card 2 -->
+          <article class="card product-card">
+            <div class="product-icon">📈</div>
+            <h3>The LinkedIn Lead Scraper</h3>
+            <p class="desc">Monitors specific LinkedIn triggers, enriches the profile data via Apollo, and pushes highly qualified leads directly into your HubSpot CRM.</p>
+            <div class="tech-stack">
+              <span>Apollo</span><span>HubSpot</span><span>Claude</span>
+            </div>
+            <div class="product-footer">
+              <div class="price">$79 <span class="license">/ one-time</span></div>
+              <button class="button buy-btn">Buy JSON</button>
+            </div>
+          </article>
+
+          <!-- Product Card 3 -->
+          <article class="card product-card">
+            <div class="card-badge best">Bestseller</div>
+            <div class="product-icon">📊</div>
+            <h3>Financial Cashflow Analyzer</h3>
+            <p class="desc">Automatically downloads bank CSVs from email, categorizes spending via AI, and builds a real-time dashboard in Google Sheets.</p>
+            <div class="tech-stack">
+              <span>Drive</span><span>Sheets</span><span>Gemini</span>
+            </div>
+            <div class="product-footer">
+              <div class="price">$99 <span class="license">/ one-time</span></div>
+              <button class="button buy-btn">Buy JSON</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how-it-works" class="section">
+      <div class="container two-col align-center">
+        <div>
+          <p class="section-label">Zero friction</p>
+          <h2>Cmd+C, Cmd+V.<br/>You're live.</h2>
+          <p>We don't sell subscriptions. We sell the actual n8n JSON architecture.</p>
+          <ul class="check-list">
+            <li><strong>1. Purchase:</strong> Buy the agent and instantly download the JSON file.</li>
+            <li><strong>2. Import:</strong> Open your n8n canvas and paste the code. The entire node structure appears instantly.</li>
+            <li><strong>3. Connect:</strong> Click the credential nodes to link your own API keys.</li>
+            <li><strong>4. Deploy:</strong> Activate the workflow. You own the code forever.</li>
+          </ul>
+        </div>
+        <div class="code-preview">
+          <div class="window-header">
+            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+            <span class="title">financial-agent.json</span>
+          </div>
+          <pre><code>{
+  "name": "SageLion Cashflow Agent",
+  "nodes": [
+    {
+      "parameters": {
+        "model": "gpt-4-turbo",
+        "systemMessage": "You are a senior financial controller..."
+      },
+      "name": "AI Agent",
+      "type": "n8n-nodes-base.agent"
+    }
+  ]
+}</code></pre>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="brand-name small">SageLion Agents</div>
+        <div class="brand-tag">Premium n8n architectures.</div>
+      </div>
+      <div class="footer-meta">
+        <div class="signoff">Crafted with care — Thorne 🌒</div>
+        <div class="entity-note">SageLion Capital Ltd.</div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
