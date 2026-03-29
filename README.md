@@ -10,7 +10,7 @@ Instead of selling expensive consulting hours or recurring SaaS subscriptions, t
 - **Frontend:** HTML5, CSS3 (using the premium 'Radiance' design system)
 - **Typography:** *Cormorant Garamond* (Headings), *Inter* (Body/Nav)
 - **Hosting:** Vercel (`vercel.json` configured for optimal edge-caching)
-- **Live Deployment:** [https://factory-gules.vercel.app](https://factory-gules.vercel.app)
+- **Live Deployment:** [https://sagelion-store.vercel.app](https://sagelion-store.vercel.app)
 
 ### Core Products (Current Suite)
 1. **The Inbox Triage Agent:** Auto-categorises and drafts support email replies.
