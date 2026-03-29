@@ -1,8 +1,10 @@
 {
-  "name": "sagelion-agents",
   "framework": null,
   "cleanUrls": true,
   "trailingSlash": false,
+  "alias": [
+    "sagelion-store.vercel.app"
+  ],
   "headers": [
     {
       "source": "/(.*)",
