@@ -1,20 +1,3 @@
-:root {
-  --bg-color: #191A1C; /* Dark charcoal from the logo background */
-  --surface: #222426;
-  --surface-hover: #2A2C30;
-  --text-primary: #F0EDE5; /* Off-white for elegance */
-  --text-muted: #A3A199;
-  --gold: #D2AF6F; /* Logo gold */
-  --gold-dark: #B08C4E;
-  --gold-glow: rgba(210, 175, 111, 0.15);
-  --line: rgba(210, 175, 111, 0.2);
-  --shadow: 0 20px 40px rgba(0,0,0,0.5);
-  --radius: 4px;
-}
-
-* { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-
 body {
   margin: 0;
   font-family: 'Lora', serif;
@@ -199,4 +182,169 @@ code { font-family: "Courier New", monospace; font-size: 14px; color: var(--text
 @media (max-width: 900px) {
   .cards.three-up, .two-col { grid-template-columns: 1fr; gap: 40px; }
   nav { display: none; }
+}
+
+
+/* Zapier-inspired hero */
+.announcement-bar {
+  background: linear-gradient(90deg, #103b27, #0f231a);
+  color: #e8fff1;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+.announcement-inner {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 24px;
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.announcement-inner a {
+  color: #9effc9;
+  font-weight: 600;
+}
+.announcement-label {
+  background: rgba(255,255,255,0.15);
+  padding: 2px 8px;
+  border-radius: 999px;
+}
+.hero {
+  background: #fefefe;
+  color: #0f1a1c;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 48px;
+  align-items: center;
+}
+.hero-copy h1 {
+  font-size: clamp(36px, 4.5vw, 56px);
+  line-height: 1.05;
+  margin-bottom: 18px;
+}
+.cta-column {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin: 28px 0 18px;
+}
+.cta-email, .cta-google {
+  border: none;
+  border-radius: 999px;
+  padding: 14px 22px;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: center;
+  width: 100%;
+}
+.cta-email {
+  background: #f58220;
+  color: #fff;
+}
+.cta-google {
+  background: #fff;
+  color: #0f1a1c;
+  border: 1px solid #d0d5dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.google-dot {
+  background: #ea4335;
+  color: #fff;
+  border-radius: 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+}
+.trust-badges {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.badge-row span {
+  border: 1px solid rgba(15,26,28,0.1);
+  padding: 6px 12px;
+  border-radius: 999px;
+}
+.hero-graphic {
+  background: radial-gradient(circle at 30% 20%, rgba(255,141,46,0.25), transparent 60%), #0f1a1c;
+  border-radius: 32px;
+  padding: 32px;
+  position: relative;
+  overflow: hidden;
+  min-height: 320px;
+  color: #f8f9fa;
+  box-shadow: 0 30px 80px rgba(15,26,28,0.45);
+}
+.spark {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(255,141,46,0.8), rgba(255,141,46,0));
+  position: absolute;
+  top: 24px;
+  right: 32px;
+  filter: blur(2px);
+}
+.card-stack {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card-line {
+  background: rgba(255,255,255,0.08);
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid rgba(255,255,255,0.15);
+  font-size: 14px;
+}
+.card-pill {
+  align-self: flex-start;
+  background: rgba(255,141,46,0.15);
+  color: #ffbf88;
+  padding: 8px 16px;
+  border-radius: 999px;
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+@media (max-width: 900px) {
+  .announcement-inner {
+    justify-content: flex-start;
+  }
+  .hero {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .cta-column {
+    flex-direction: column;
+  }
+  .hero-graphic {
+    min-height: 0;
+  }
 }
