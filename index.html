@@ -3,92 +3,94 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>SageLion Agents — Premium n8n Automations</title>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>SageLion Agents | Premium Automations</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header class="site-header">
     <div class="container nav">
       <div class="brand">
-        <div class="brand-mark image-mark">♌</div>
+        <img src="sage.jpg" alt="SageLion Logo" class="brand-logo" />
         <div>
-          <div class="brand-name">SageLion Agents</div>
-          <div class="brand-tag">Premium n8n Automations</div>
+          <div class="brand-name">SageLion</div>
+          <div class="brand-tag">Agents & Architecture</div>
         </div>
       </div>
       <nav>
-        <a href="#agents">Browse Agents</a>
-        <a href="#how-it-works">How it Works</a>
-        <a href="https://sagelion.com" target="_blank" style="color: var(--gold); border: 1px solid var(--line); padding: 6px 12px; border-radius: 6px;">Back to Main Site</a>
+        <a href="#agents">Our Collection</a>
+        <a href="#how-it-works">The Process</a>
+        <a href="https://sagelion.com" target="_blank" class="active">Main Maison</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero">
-      <div class="container text-center">
+      <div class="container">
         <p class="eyebrow">Plug-and-Play AI</p>
-        <h1>Enterprise-grade n8n agents, built for business.</h1>
+        <h1>Enterprise-Grade Automations.</h1>
         <p class="lead">
-          Stop wrestling with LangChain nodes and API documentation. Instantly download fully engineered, production-ready AI agents and drop them straight into your n8n workspace.
+          Elevate your infrastructure. Instantly download fully engineered, production-ready AI agents and drop them directly into your n8n workspace. No subscriptions, just pure architecture.
         </p>
-        <div class="cta-row center-cta">
-          <a class="button primary" href="#agents">View Agent Library</a>
-          <a class="button secondary" href="#how-it-works">Watch Demo</a>
+        <div class="cta-row">
+          <a class="button primary" href="#agents">View The Collection</a>
+          <a class="button secondary" href="#how-it-works">Discover How</a>
         </div>
       </div>
     </section>
 
-    <section id="agents" class="section alt">
+    <section id="agents" class="section">
       <div class="container">
         <div class="section-header">
-          <h2>Featured Agents</h2>
-          <p>Production-tested workflows with advanced error handling and memory.</p>
+          <h2>Featured Architectures</h2>
+          <p>Production-tested workflows with advanced error handling and cognitive memory.</p>
         </div>
         
         <div class="cards three-up">
           <!-- Product Card 1 -->
-          <article class="card product-card">
-            <div class="card-badge new">New</div>
-            <div class="product-icon">📥</div>
+          <article class="card">
+            <div class="card-badge">New Arrival</div>
+            <div class="product-icon">✦</div>
             <h3>The Inbox Triage Agent</h3>
             <p class="desc">Autonomously reads incoming support emails, categorizes urgency, drafts a reply using your company knowledge base, and saves it as a draft.</p>
             <div class="tech-stack">
               <span>Gmail</span><span>OpenAI</span><span>Notion</span>
             </div>
             <div class="product-footer">
-              <div class="price">$49 <span class="license">/ one-time</span></div>
-              <button class="button buy-btn">Buy JSON</button>
+              <div class="price">$49</div>
+              <button class="buy-btn">Acquire JSON</button>
             </div>
           </article>
 
           <!-- Product Card 2 -->
-          <article class="card product-card">
-            <div class="product-icon">📈</div>
-            <h3>The LinkedIn Lead Scraper</h3>
-            <p class="desc">Monitors specific LinkedIn triggers, enriches the profile data via Apollo, and pushes highly qualified leads directly into your HubSpot CRM.</p>
+          <article class="card">
+            <div class="product-icon">⟡</div>
+            <h3>The LinkedIn Scraper</h3>
+            <p class="desc">Monitors specific LinkedIn triggers, enriches the profile data via Apollo, and pushes highly qualified leads directly into your CRM.</p>
             <div class="tech-stack">
               <span>Apollo</span><span>HubSpot</span><span>Claude</span>
             </div>
             <div class="product-footer">
-              <div class="price">$79 <span class="license">/ one-time</span></div>
-              <button class="button buy-btn">Buy JSON</button>
+              <div class="price">$79</div>
+              <button class="buy-btn">Acquire JSON</button>
             </div>
           </article>
 
           <!-- Product Card 3 -->
-          <article class="card product-card">
-            <div class="card-badge best">Bestseller</div>
-            <div class="product-icon">📊</div>
-            <h3>Financial Cashflow Analyzer</h3>
+          <article class="card">
+            <div class="card-badge">Bestseller</div>
+            <div class="product-icon">✧</div>
+            <h3>Financial Analyzer</h3>
             <p class="desc">Automatically downloads bank CSVs from email, categorizes spending via AI, and builds a real-time dashboard in Google Sheets.</p>
             <div class="tech-stack">
               <span>Drive</span><span>Sheets</span><span>Gemini</span>
             </div>
             <div class="product-footer">
-              <div class="price">$99 <span class="license">/ one-time</span></div>
-              <button class="button buy-btn">Buy JSON</button>
+              <div class="price">$99</div>
+              <button class="buy-btn">Acquire JSON</button>
             </div>
           </article>
         </div>
@@ -96,33 +98,40 @@
     </section>
 
     <section id="how-it-works" class="section">
-      <div class="container two-col align-center">
+      <div class="container two-col">
         <div>
-          <p class="section-label">Zero friction</p>
-          <h2>Cmd+C, Cmd+V.<br/>You're live.</h2>
-          <p>We don't sell subscriptions. We sell the actual n8n JSON architecture.</p>
-          <ul class="check-list">
-            <li><strong>1. Purchase:</strong> Buy the agent and instantly download the JSON file.</li>
-            <li><strong>2. Import:</strong> Open your n8n canvas and paste the code. The entire node structure appears instantly.</li>
-            <li><strong>3. Connect:</strong> Click the credential nodes to link your own API keys.</li>
-            <li><strong>4. Deploy:</strong> Activate the workflow. You own the code forever.</li>
-          </ul>
+          <p class="eyebrow">Zero friction</p>
+          <h2>Cmd+C, Cmd+V.<br/>You are live.</h2>
+          <p class="desc" style="font-size: 18px; margin-bottom: 40px;">We do not sell SaaS subscriptions. We sell the actual n8n JSON architecture for you to own forever.</p>
+          
+          <div style="margin-bottom: 24px;">
+            <strong style="color: var(--gold); font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em;">I. Purchase</strong>
+            <p style="color: var(--text-muted); margin: 8px 0;">Acquire the agent and instantly download the JSON source file.</p>
+          </div>
+          <div style="margin-bottom: 24px;">
+            <strong style="color: var(--gold); font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em;">II. Import</strong>
+            <p style="color: var(--text-muted); margin: 8px 0;">Open your n8n canvas and paste the code. The entire node structure materializes instantly.</p>
+          </div>
+          <div>
+            <strong style="color: var(--gold); font-size: 14px; text-transform: uppercase; letter-spacing: 0.1em;">III. Deploy</strong>
+            <p style="color: var(--text-muted); margin: 8px 0;">Connect your API keys and activate the workflow. It runs on your own infrastructure.</p>
+          </div>
         </div>
+        
         <div class="code-preview">
           <div class="window-header">
-            <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
-            <span class="title">financial-agent.json</span>
+            financial-agent.json
           </div>
           <pre><code>{
-  "name": "SageLion Cashflow Agent",
-  "nodes": [
+  <span class="code-key">"name"</span>: "SageLion Cashflow Agent",
+  <span class="code-key">"nodes"</span>: [
     {
-      "parameters": {
-        "model": "gpt-4-turbo",
-        "systemMessage": "You are a senior financial controller..."
+      <span class="code-key">"parameters"</span>: {
+        <span class="code-key">"model"</span>: "gpt-4-turbo",
+        <span class="code-key">"systemMessage"</span>: "You are a senior controller..."
       },
-      "name": "AI Agent",
-      "type": "n8n-nodes-base.agent"
+      <span class="code-key">"name"</span>: "AI Agent",
+      <span class="code-key">"type"</span>: "n8n-nodes-base.agent"
     }
   ]
 }</code></pre>
@@ -132,15 +141,10 @@
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-inner">
-      <div>
-        <div class="brand-name small">SageLion Agents</div>
-        <div class="brand-tag">Premium n8n architectures.</div>
-      </div>
-      <div class="footer-meta">
-        <div class="signoff">Crafted with care — Thorne 🌒</div>
-        <div class="entity-note">SageLion Capital Ltd.</div>
-      </div>
+    <div class="container">
+      <img src="sage.jpg" alt="SageLion Logo" class="footer-logo" />
+      <div class="signoff">Crafted with precision</div>
+      <div style="font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--text-muted);">SageLion Capital Ltd.</div>
     </div>
   </footer>
 </body>
